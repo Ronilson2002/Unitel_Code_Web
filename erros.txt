@@ -1,0 +1,14 @@
+Erros no codigo
+
+#a borda divisoria dos planos - erro na chamada do css
+
+# A fonte family foi definida como italic, em vez de font-style
+
+# O texto do nossos cursos est� diferente do layout inicial
+
+# linha de quebra n�o demonstrada no c�digo
+
+
+# N�o tem nav-bar
+
+# Diferen�a de cor entre os menus n�o tem porque usam a mesma tag

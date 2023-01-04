@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontBox</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    
+    <header>
+        <div class="menu-bg">
+            <nav class="menu">
+                <div class="menu_logo">
+                    <a href="index.html" ><img src="img/logo.png" alt=""></a>
+                </div>
+                 <!-- fim do meu Logo  -->
+                <div class="nav">
+                    <ul class="nav_lista">
+                        <li class="nav_item"><a href="#somos" class="nav_link">Quem Somos</a></li>
+                        <li class="nav_item"><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                        <li class="nav_item"><a href="#planos" class="nav_link">Planos</a></li>
+                        <li class="nav_item"><a href="#vantagens" class="nav_link">Vantagens</a></li>
+                    </ul>
+                </div>
+                <div class="mobile_menu_icon">
+                    <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button></div>
+                
+            </nav>
+            <div class="mobile_menu">
+                <ul>
+                    <li class="nav_item"><a href="#somos" class="nav_link">Quem Somos</a></li>
+                    <li class="nav_item"><a href="#cursos" class="nav_link">Nossos Cursos</a></li>
+                    <li class="nav_item"><a href="#planos" class="nav_link">Planos</a></li>
+                    <li class="nav_item"><a href="#vantagens" class="nav_link">Vantagem</a></li>
+                </ul>
+            </div>
+        </div>
+        <h1 class="intro">Aprenda a programar, <br/> um projeto por vez</h1>
+        <hr>
+    </header>
+
+    <section class="somos" id="somos">
+        <h2 class="sessao_titulo">Quem Somos</h2>
+        <div class="somos_corpo">
+            <div class="somos_texto">
+                <p>
+                    Mussum Ipsum, cacilds vidis litro abertis. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Atirei o pau no gatis, per gatis num morreus. Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Cevadis im ampola pa arma uma pindureta.
+                </p>
+                <br>
+                <p>
+                    Copo furadis é disculpa de bebadis, arcu quam euismod magna. Praesent vel viverra nisi. Mauris aliquet nunc non turpis scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis.
+                </p>
+            </div>
+
+            <div class="somos_imagem">
+                <img src="/img/somos.png" alt="Quem Somos">
+            </div>     
+
+        </div>
+        <hr>
+    </section>
+
+    <section class="cursos" id="cursos">
+        <h2 class="sessao_titulo">Nossos Cursos</h2>
+        <div class="curso_corpo">
+            <div class="curso">
+                <img src="img/ai.png" alt="Inteligência Artificial" class="curso_img"></img>
+                <h3 class="curso_titulo">Inteligência Artificial</h3>
+                <p class="curso_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+            </div>
+            <div class="curso">
+                <img src="img/front.png" alt="Frontend" class="curso_img">
+                <h3 class="curso_titulo">Frontend</h3>
+                <p class="curso_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+            </div>
+            <div class="curso">
+                <img src="img/seguranca.png" alt="Segurança da Informação" class="curso_img">
+                <h3 class="curso_titulo">Segurança da Informação</h3>
+                <p class="curso_descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="planos" id="planos">
+        <h2 class="sessao_titulo">Planos</h2>
+        <div class="planos_corpo">
+            <div class="plano">
+                <h2 class="plano__titulo">Básico</h2>
+                <span class="plano__preco"><sup>R$</sup>25</span>
+                <hr class="plano__divisor">
+                <ul class="plano_lista">
+                    <li class="plano_lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano_lista__item">Acesso a todos os cursos</li>
+                    <li class="plano_lista__item">Certificado de conclusão</li>
+                </ul>
+                <a href="#" class="plano__btn_comprar">Comprar</a>
+            </div>
+            
+            <div class="plano">
+                <h2 class="plano__titulo">Premium</h2>
+                <span class="plano__preco"><sup>R$</sup>40</span>
+                <hr class="plano__divisor">
+                <ul class="plano_lista">
+                    <li class="plano_lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano_lista__item">Acesso a todos os Cursos</li>
+                    <li class="plano_lista__item">Certificado de conclusão</li>
+                    <li class="plano_lista__item">Suporte</li>
+                </ul>
+                <a href="#" class="plano__btn_comprar">Comprar</a>
+            </div>
+            
+            <div class="plano">
+                <h2 class="plano__titulo">Ultra</h2>
+                <span class="plano__preco"><sup>R$</sup>25</span>
+                <hr class="plano__divisor"></hr>
+                <ul class="plano_lista">
+                    <li class="plano_lista__item">1 mês de acesso ilimitado</li>
+                    <li class="plano_lista__item">Acesso a todos os Cursos</li>
+                    <li class="plano_lista__item">Certificado de conclusão</li>
+                    <li class="plano_lista__item">Suporte</li>
+                    <li class="plano_lista__item">Download das aulas</li>
+                </ul>
+                <a href="#" class="plano__btn_comprar">Comprar</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="vantagens" id="vantagens">
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Foco em Projectos</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Portifólio Incrivel</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Aprenda fazendo</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Para todas as idades</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Atualizado</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+
+        <div class="vantagem">
+            <h2 class="vantagem__titulo">Comece hoje</h2>
+            <p class="vantagem__descricao">Mussum Ipsum, cacilds vidis litro abertis. Posuere libero varius. Nullam a nisl ut ante blandit hendrerit. Aenean sit amet nisi</p>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="newsletter_container">
+            <div class="newsletter_info">
+                <h2 class="newsletter_info__titulo">Newsletter</h2>
+                <p class="newsletter_info__descricao">Assine e fique por dentro das novidades</p>
+            </div>
+            <form action="" class="newsletter_form">
+                <input type="text" placeholder="seu e-mail" class="newsletter_form_input">
+                <button type="submit" class="newsletter_form_submit">Assinar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__copyright">Este é um projecto que servirá de maquete, para o vosso projecto final</p>
+        <a href="index.html" >
+            <img src="img/logo.png" alt="Frontbox" class="footer__logo" >
+        </a>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
